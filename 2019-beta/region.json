@@ -1,0 +1,16 @@
+{
+  "as": "AS7922 Comcast Cable Communications, LLC",
+  "city": "Santa Cruz",
+  "country": "United States",
+  "countryCode": "US",
+  "isp": "Comcast Cable Communications",
+  "lat": 37.0313,
+  "lon": -122.1198,
+  "org": "Comcast IP Services, L.L.C.",
+  "query": "73.170.9.123",
+  "region": "CA",
+  "regionName": "California",
+  "status": "success",
+  "timezone": "America/Los_Angeles",
+  "zip": "95060"
+}

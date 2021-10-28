@@ -1,0 +1,14 @@
+{
+  "name": "robloxsql",
+  "description": "Roblox SQL server example",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "forever": "^0.15.3",
+    "pg": "^7.4.3"
+  }
+}

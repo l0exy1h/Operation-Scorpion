@@ -1,0 +1,272 @@
+
+{
+  "user_id": "413461670",
+  "user_name": "y0rkl1u",
+  "exp": 384853,
+  "headshots": 653,
+  "kills": 1121,
+  "level": 30,
+  "money": 145414,
+  "all_money": 94194,
+  "casual_wins": 43,
+  "damage": 134566,
+  "assists": 1021,
+  "deaths": 392,
+  "bullets_hit": 2299,
+  "bullets_fired": 13973,
+  "edition2_expiration_date": "2019-01-17T08:00:00.000Z",
+  "edition3_expiration_date": null,
+  "has_edition1": true,
+  "skins": null,
+  "dances": {
+    "YMCA": true,
+    "T-pose": true,
+    "Can Can": true,
+    "Clubber": true,
+    "Tai-chu": true,
+    "Bawk Bawk": true,
+    "Get Jiggy": true,
+    "Hokey Pokey": true,
+    "Les Thunder": true,
+    "Running Man": true,
+    "Red Cherries": true
+  },
+  "weapons": {
+    "XM8": {
+      "kills": 222,
+      "skins": [],
+      "damage": 28864.90112977773,
+      "headshots": 152,
+      "attachments": {
+        "KA Mams": true,
+        "SRS Red Dot": true
+      },
+      "bullets_hit": 594,
+      "bullets_fired": 3199,
+      "savedAttachments": {
+        "Optic": "SRS Red Dot",
+        "Muzzle": "KA Mams"
+      }
+    },
+    "M4A1": {
+      "kills": 15,
+      "skins": [],
+      "damage": 2159.97,
+      "headshots": 10,
+      "attachments": {
+        "KA Mams": true,
+        "SRS Red Dot": true,
+        "MG Angled Grip": true,
+        "TR Battle Sight": true,
+        "M4A1 Short Barrel": true,
+        "MOE Carbine Stock": true,
+        "M4A1 Extended Stock": true,
+        "Sake ASR Suppressor": true
+      },
+      "bullets_hit": 51,
+      "bullets_fired": 344,
+      "savedAttachments": {
+        "Optic": "SRS Red Dot",
+        "Stock": "MOE Carbine Stock",
+        "Barrel": "M4A1 Short Barrel",
+        "Muzzle": "KA Mams",
+        "Underbarrel": "MG Angled Grip"
+      }
+    },
+    "AK74N": {
+      "kills": 89,
+      "skins": [],
+      "damage": 11500.902926310142,
+      "headshots": 61,
+      "attachments": {
+        "TA31H Acog": true,
+        "SRS Red Dot": true,
+        "MOE AK Stock": true,
+        "MG Angled Grip": true,
+        "AK74N Tactical Mount": true,
+        "AK74N Tactical Handguard": true
+      },
+      "bullets_hit": 215,
+      "bullets_fired": 1619,
+      "savedAttachments": {
+        "Mount": "AK74N Tactical Mount",
+        "Optic": "SRS Red Dot",
+        "Stock": "MOE AK Stock",
+        "Barrel": "AK74N Tactical Handguard",
+        "Underbarrel": "MG Angled Grip"
+      }
+    },
+    "MP5A3": {
+      "kills": 49,
+      "skins": [],
+      "damage": 6588.432894514085,
+      "headshots": 38,
+      "attachments": {
+        "TA31H Acog": true,
+        "SRS Red Dot": true,
+        "MG Angled Grip": true,
+        "Osprey Suppressor": true,
+        "MP5A3 Closed Stock": true,
+        "ET Holographic Sight": true,
+        "MP5A3 Tactical Handguard": true
+      },
+      "bullets_hit": 140,
+      "bullets_fired": 724,
+      "savedAttachments": {
+        "Optic": "SRS Red Dot",
+        "Stock": "MP5A3 Closed Stock",
+        "Barrel": "MP5A3 Tactical Handguard",
+        "Muzzle": "Osprey Suppressor",
+        "Underbarrel": "MG Angled Grip"
+      }
+    },
+    "UMP45": {
+      "kills": 37,
+      "skins": [],
+      "damage": 5393.828023626416,
+      "headshots": 18,
+      "attachments": {
+        "RX6 Reflex": true,
+        "SRS Red Dot": true,
+        "MG Angled Grip": true,
+        "DD Vertical Grip": true,
+        "Osprey Suppressor": true,
+        "ET Holographic Sight": true
+      },
+      "bullets_hit": 128,
+      "bullets_fired": 713,
+      "savedAttachments": {
+        "Optic": "ET Holographic Sight",
+        "Stock": "UMP45 Folded Stock",
+        "Underbarrel": "DD Vertical Grip"
+      }
+    },
+    "FNX-45": {
+      "kills": 27,
+      "skins": [],
+      "damage": 3472.4333213387986,
+      "headshots": 17,
+      "attachments": {
+        "Osprey Suppressor": true
+      },
+      "bullets_hit": 73,
+      "bullets_fired": 1026,
+      "savedAttachments": []
+    },
+    "USP .45": {
+      "kills": 10,
+      "skins": [],
+      "damage": 993.9040705848901,
+      "headshots": 4,
+      "attachments": {
+        "Osprey Suppressor": true
+      },
+      "bullets_hit": 27,
+      "bullets_fired": 287,
+      "savedAttachments": {
+        "Muzzle": "Osprey Suppressor"
+      }
+    },
+    "MK16 Scar-L": {
+      "kills": 121,
+      "skins": [],
+      "damage": 15064.499999999996,
+      "headshots": 64,
+      "attachments": {
+        "KA Mams": true,
+        "MG Angled Grip": true
+      },
+      "bullets_hit": 326,
+      "bullets_fired": 1980,
+      "savedAttachments": {
+        "Optic": "SRS Red Dot",
+        "Barrel": "MK16 Short Barrel",
+        "Muzzle": "VD Jet Compensator",
+        "Underbarrel": "MG Angled Grip"
+      }
+    },
+    "VSSM Vintorez": {
+      "kills": 243,
+      "skins": [],
+      "damage": 31837.31171411115,
+      "headshots": 144,
+      "attachments": {
+        "TA31H Acog": true,
+        "MG Angled Grip": true
+      },
+      "bullets_hit": 443,
+      "bullets_fired": 2480,
+      "savedAttachments": {
+        "Optic": "SRS Red Dot",
+        "Magazine": "VSSM Extended Magazine",
+        "Underbarrel": "DD Vertical Grip"
+      }
+    },
+    "SIG MCX Virtus": {
+      "kills": 76,
+      "skins": [],
+      "damage": 9652.330000000002,
+      "headshots": 43,
+      "attachments": {
+        "KA Mams": true,
+        "RX6 Reflex": true,
+        "TA31H Acog": true,
+        "SRS Red Dot": true,
+        "MG Angled Grip": true,
+        "MCX Long Barrel": true,
+        "MCX Closed Stock": true,
+        "Sake ASR Suppressor": true
+      },
+      "bullets_hit": 197,
+      "bullets_fired": 1011,
+      "savedAttachments": {
+        "Optic": "SRS Red Dot"
+      }
+    },
+    "Kriss Vector G2": {
+      "kills": 30,
+      "skins": [],
+      "damage": 3881.365097087136,
+      "headshots": 18,
+      "attachments": {
+        "SRS Red Dot": true,
+        "MG Angled Grip": true,
+        "Osprey Suppressor": true,
+        "MOE Extended Stock": true,
+        "Vector Extended Muzzle": true,
+        "Vector Extended Handguard": true
+      },
+      "bullets_hit": 105,
+      "bullets_fired": 590,
+      "savedAttachments": {
+        "Optic": "SRS Red Dot",
+        "Stock": "MOE Extended Stock",
+        "Barrel": "Vector Extended Handguard",
+        "Muzzle": "Vector Extended Muzzle",
+        "Underbarrel": "MG Angled Grip"
+      }
+    }
+  },
+  "loadouts": [
+    {
+      "skin": "Default",
+      "dance": "YMCA",
+      "weapons": [
+        {
+          "weaponName": "UMP45",
+          "attachments": {
+            "Optic": "ET Holographic Sight",
+            "Stock": "UMP45 Folded Stock",
+            "Underbarrel": "DD Vertical Grip"
+          }
+        },
+        {
+          "weaponName": "FNX-45",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "last_login_version": 1.11,
+  "first_login_version": 0.01
+}

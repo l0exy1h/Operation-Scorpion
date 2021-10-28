@@ -1,0 +1,231 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      9598,        223]
+NotebookOptionsPosition[      8762,        201]
+NotebookOutlinePosition[      9107,        216]
+CellTagsIndexPosition[      9064,        213]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"g", "[", 
+   RowBox[{"F_", ",", "m_", ",", "l_", ",", "v_"}], "]"}], ":=", 
+  SqrtBox[
+   RowBox[{"Max", "[", 
+    RowBox[{
+     RowBox[{"1", "-", 
+      FractionBox[
+       RowBox[{"2", "F", " ", "l"}], 
+       RowBox[{"m", " ", 
+        SuperscriptBox["v", "2"]}]]}], ",", "0"}], 
+    "]"}]]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"f", "[", 
+   RowBox[{"mat_", ",", "pen_", ",", "l_", ",", "v_"}], "]"}], ":=", 
+  RowBox[{"(", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"F", "=", 
+     RowBox[{"10000", "*", "mat"}]}], ";", "\[IndentingNewLine]", 
+    RowBox[{"m", "=", 
+     RowBox[{"pen", "/", "100"}]}], ";", "\[IndentingNewLine]", 
+    RowBox[{"g", "[", 
+     RowBox[{"F", ",", "m", ",", "l", ",", "v"}], "]"}]}], 
+   "\[IndentingNewLine]", ")"}]}]}], "Input",
+ CellChangeTimes->{{3.756253004330059*^9, 3.756253055378042*^9}, {
+   3.756253176544592*^9, 3.756253195104085*^9}, {3.7562536432318573`*^9, 
+   3.756253732897075*^9}, 3.756253787953575*^9, {3.75625525565949*^9, 
+   3.756255260561949*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"6f5ccc39-6720-4fec-8b05-3da02fd9907e"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"Show", "@", 
+    RowBox[{"Table", "[", "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{"Quiet", "@", 
+       RowBox[{"Plot", "[", "\[IndentingNewLine]", 
+        RowBox[{
+         RowBox[{"f", "[", 
+          RowBox[{"mat", ",", "pen", ",", "l", ",", "v"}], "]"}], ",", 
+         "\[IndentingNewLine]", 
+         RowBox[{"{", 
+          RowBox[{"l", ",", "0", ",", "2"}], "}"}], ",", 
+         "\[IndentingNewLine]", 
+         RowBox[{"PlotPoints", "\[Rule]", "10"}], ",", "\[IndentingNewLine]", 
+         RowBox[{"PlotRange", "\[Rule]", 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"0", ",", "2"}], "}"}], ",", 
+            RowBox[{"{", 
+             RowBox[{"0", ",", "1"}], "}"}]}], "}"}]}], ",", 
+         "\[IndentingNewLine]", 
+         RowBox[{"AspectRatio", "\[Rule]", 
+          RowBox[{"1", "/", "2"}]}], ",", "\[IndentingNewLine]", 
+         RowBox[{"AxesLabel", "\[Rule]", 
+          RowBox[{"{", 
+           RowBox[{"\"\<impact depth\>\"", ",", "\"\<velocity left %\>\""}], 
+           "}"}]}]}], "\[IndentingNewLine]", "]"}]}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{"v", ",", 
+        RowBox[{"{", 
+         RowBox[{"584", ",", "900", ",", "1800"}], "}"}]}], "}"}]}], 
+     "\[IndentingNewLine]", "]"}]}], ",", "\[IndentingNewLine]", 
+   RowBox[{"{", 
+    RowBox[{"mat", ",", "0", ",", "50", ",", "1"}], "}"}], ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{"{", 
+    RowBox[{"pen", ",", "0", ",", "20", ",", "1"}], "}"}]}], 
+  "\[IndentingNewLine]", "]"}]], "Input",
+ CellChangeTimes->{{3.7562537571697435`*^9, 3.756253790208445*^9}, {
+   3.756253926072709*^9, 3.756253932682028*^9}, {3.756254097312109*^9, 
+   3.756254177552514*^9}, {3.756254229841634*^9, 3.756254276183797*^9}, {
+   3.756254443768602*^9, 3.7562545672487555`*^9}, {3.7562546034507494`*^9, 
+   3.756254652850368*^9}, {3.756254683531782*^9, 3.7562547259538994`*^9}, {
+   3.7562548428995466`*^9, 3.7562548624253607`*^9}, {3.7562549173624983`*^9, 
+   3.7562550647071924`*^9}, {3.756255114018722*^9, 3.7562551631222477`*^9}, {
+   3.756255234051053*^9, 3.7562552356414843`*^9}, {3.756255323130597*^9, 
+   3.756255323417577*^9}, {3.7562554726102047`*^9, 3.7562554839529743`*^9}, {
+   3.7562565128511953`*^9, 3.756256539242324*^9}, {3.756256682931031*^9, 
+   3.7562566830487156`*^9}, 3.7563235982545877`*^9, {3.7564127850070553`*^9, 
+   3.7564128087022758`*^9}, {3.7564128749676113`*^9, 
+   3.7564128758060513`*^9}, {3.756413103638979*^9, 3.7564131140861354`*^9}, {
+   3.7564134641039248`*^9, 3.7564134649737487`*^9}, {3.756598826582732*^9, 
+   3.7565988387895803`*^9}, {3.7565989895276313`*^9, 3.7565989901734114`*^9}},
+ CellLabel->"In[4]:=",ExpressionUUID->"393ba5eb-778c-4fea-8e8c-4da0c5dc7c26"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`mat$$ = 7, $CellContext`pen$$ = 9, 
+    Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
+    Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
+    1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{
+      Hold[$CellContext`mat$$], 0, 50, 1}, {
+      Hold[$CellContext`pen$$], 0, 20, 1}}, Typeset`size$$ = {
+    360., {76., 84.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
+    Typeset`skipInitDone$$ = True, $CellContext`mat$4989$$ = 
+    0, $CellContext`pen$4990$$ = 0}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, 
+      "Variables" :> {$CellContext`mat$$ = 0, $CellContext`pen$$ = 0}, 
+      "ControllerVariables" :> {
+        Hold[$CellContext`mat$$, $CellContext`mat$4989$$, 0], 
+        Hold[$CellContext`pen$$, $CellContext`pen$4990$$, 0]}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> Show[
+        Table[
+         Quiet[
+          Plot[
+           $CellContext`f[$CellContext`mat$$, $CellContext`pen$$, \
+$CellContext`l, $CellContext`v], {$CellContext`l, 0, 2}, PlotPoints -> 10, 
+           PlotRange -> {{0, 2}, {0, 1}}, AspectRatio -> 1/2, 
+           AxesLabel -> {
+            "impact depth", "velocity left %"}]], {$CellContext`v, {584, 900, 
+          1800}}]], 
+      "Specifications" :> {{$CellContext`mat$$, 0, 50, 
+         1}, {$CellContext`pen$$, 0, 20, 1}}, "Options" :> {}, 
+      "DefaultOptions" :> {}],
+     ImageSizeCache->{411., {165., 173.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{
+  3.7562542493594522`*^9, {3.756254527403619*^9, 3.756254567729452*^9}, 
+   3.7562546055464463`*^9, {3.7562546367390747`*^9, 3.756254653110591*^9}, {
+   3.7562546906799965`*^9, 3.7562547377380686`*^9}, {3.7562548437630672`*^9, 
+   3.756254862744507*^9}, {3.7562550414164095`*^9, 3.7562550649844522`*^9}, {
+   3.756255097002204*^9, 3.756255167655421*^9}, {3.756255236034153*^9, 
+   3.756255248505066*^9}, 3.7562552819360495`*^9, 3.75625532364261*^9, {
+   3.7562554018105974`*^9, 3.7562554029830885`*^9}, {3.7562565137211423`*^9, 
+   3.7562565528300056`*^9}, {3.75625660592829*^9, 3.7562566061643524`*^9}, {
+   3.7562566834902663`*^9, 3.7562566861008654`*^9}, {3.756323474382662*^9, 
+   3.756323475030481*^9}, {3.7564127755003405`*^9, 3.7564127853910623`*^9}, {
+   3.756412878171824*^9, 3.756412884229928*^9}, {3.7564131146470895`*^9, 
+   3.7564131192801385`*^9}, {3.7564134654784*^9, 3.756413468519766*^9}, {
+   3.7565988416142797`*^9, 3.7565988466691875`*^9}, {3.756598990688037*^9, 
+   3.7565989938462276`*^9}},
+ CellLabel->"Out[4]=",ExpressionUUID->"ce365409-5512-4a1c-be65-ef631f8aecc5"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"f", "[", 
+   RowBox[{"6", ",", 
+    RowBox[{"-", "1"}], ",", "1", ",", "880"}], "]"}], "//", "N"}]], "Input",
+ CellChangeTimes->{{3.756324709310848*^9, 3.7563247504913497`*^9}, {
+  3.756324856995802*^9, 3.7563248586929736`*^9}, {3.756353043042404*^9, 
+  3.7563530732181387`*^9}, {3.756599081989618*^9, 3.7565990824533806`*^9}},
+ CellLabel->"In[5]:=",ExpressionUUID->"9d29c78d-dd3f-46fe-8b55-f09558e29e01"],
+
+Cell[BoxData["4.061510527943396`"], "Output",
+ CellChangeTimes->{{3.756324726465458*^9, 3.756324747989089*^9}, 
+   3.7563248589991317`*^9, {3.756353046236188*^9, 3.7563530735891466`*^9}, 
+   3.756599082647828*^9},
+ CellLabel->"Out[5]=",ExpressionUUID->"9bb0126e-b662-47cc-aca8-e5ec390b7ec3"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"10", "*"}]], "Input",
+ CellChangeTimes->{{3.7563267321511407`*^9, 
+  3.7563267327565994`*^9}},ExpressionUUID->"fba9a56d-ce7a-4ddc-a0dc-\
+92566b59d2ff"]
+},
+WindowSize->{1065, 912},
+WindowMargins->{{709, Automatic}, {-14, Automatic}},
+FrontEndVersion->"11.3 for Microsoft Windows (64-bit) (March 6, 2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 1132, 29, 200, "Input",ExpressionUUID->"6f5ccc39-6720-4fec-8b05-3da02fd9907e"],
+Cell[CellGroupData[{
+Cell[1715, 53, 2843, 57, 384, "Input",ExpressionUUID->"393ba5eb-778c-4fea-8e8c-4da0c5dc7c26"],
+Cell[4561, 112, 3236, 61, 357, "Output",ExpressionUUID->"ce365409-5512-4a1c-be65-ef631f8aecc5"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7834, 178, 440, 8, 33, "Input",ExpressionUUID->"9d29c78d-dd3f-46fe-8b55-f09558e29e01"],
+Cell[8277, 188, 291, 4, 37, "Output",ExpressionUUID->"9bb0126e-b662-47cc-aca8-e5ec390b7ec3"]
+}, Open  ]],
+Cell[8583, 195, 175, 4, 33, "Input",ExpressionUUID->"fba9a56d-ce7a-4ddc-a0dc-92566b59d2ff"]
+}
+]
+*)
+
